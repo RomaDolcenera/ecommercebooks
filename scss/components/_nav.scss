@@ -1,0 +1,107 @@
+.navbar__nav {
+  width: 100%;
+  background-color: $verduso;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+
+  .navbar__container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+
+    .navbar__logo {
+      flex: 1;
+    }
+    .navbar__logo__img {
+      border-radius: 7px;
+    }
+    .navbar__search {
+      flex: 2;
+
+      .navbar__search__input {
+        width: 65%;
+        background: $whity;
+        padding: 0.4rem;
+        border-radius: $border-small;
+        border: none;
+      }
+      .navbar__search__button {
+        padding: 5px 10px;
+        border-radius: $border-small;
+        border-width: 2px;
+        border-style: solid;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    }
+    .navbar__icons {
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+      font-size: 1.2rem;
+      padding: 0;
+      margin: 0;
+
+      .a-icons {
+        color: black;
+      }
+    }
+  }
+}
+
+.navbar__categories__container {
+  background-color: $whity;
+  padding: 10px 0;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  .navbar__categories__nav {
+    width: 70%;
+    padding-left: 0;
+    .navbar__icons {
+      gap: 20px;
+    }
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 5px;
+  }
+  .navbar__list {
+    text-decoration: none;
+    color: $verduso;
+  }
+}
+/*Media queries*/
+@media screen and (max-width: 768px) {
+  .navbar__container {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+  .navbar__categories__nav {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .navbar__container {
+    width: 100%;
+
+    .navbar__logo {
+      display: none;
+    }
+  }
+  .navbar__categories {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar__search__input {
+    width: 70%;
+  }
+}

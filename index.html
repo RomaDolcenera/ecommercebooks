@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!--Este es el Título-->
+    <title>Rocio Marquez ♥ RoMa Librería</title>
+    <!--Keywords-->
+    <meta name="keywords"
+        content="libreria, libro, libros, libros estudio, libros escolares, libros autoayuda, roma, libros de roma, romalibri, libros para pensar">
+    <!--Open Graph-->
+    <meta property="og:title" content="Librería online Roma">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:description"
+        content="La mejor libreria online con multiples tematicas para quien guste leer y dejarse llevar por un mundo de fantasias, o incrementar su intelecto">
+    <meta property="og:name" content="RoMa Books">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <header class="header__nav">
+        <nav class="navbar__nav">
+            <div class="navbar__container">
+                <div class="navbar__logo">
+                    <a href="home.html">
+                        <img class="navbar__logo__img" src="/images/romalogo.png" alt="" width="150px">
+                    </a>
+                </div>
+                <div class="navbar__search">
+                    <input type="search" placeholder="Search a book by title / author" class="navbar__search__input">
+                    <button "search" class="navbar__search__button">Search</button>
+                </div>
+                <ul class="navbar__icons">
+                    <li class="navbar__icons__list"> <a href="login.html" class="a-icons"> <i
+                                class=" far fa-user"></i></a></li>
+                    <li class="navbar__icons__list"> <a href="cart.html" class="a-icons"><i
+                                class=" fas fa-cart-arrow-down"></i></a>
+                    </li>
+                    <li class="navbar__icons__list"> <a href="register.html" class="a-icons"><i
+                                class=" fas fa-sign-in-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar__categories">
+            <div class="navbar__categories__container">
+                <ul class="navbar__categories__nav">
+                    <li><a href="#" class="navbar__list">Ciencia Ficción</a></li>
+                    <li><a href="#" class="navbar__list">Infantil</a></li>
+                    <li><a href="#" class="navbar__list">Autoayuda</a></li>
+                    <li><a href="#" class="navbar__list">Religión</a></li>
+                    <li><a href="#" class="navbar__list">Tecnología</a></li>
+                    <li><a href="#" class="navbar__list">Ciencias Médicas</a></li>
+                    <li><a href="#" class="navbar__list">Manualidades</a></li>
+                    <li><a href="#" class="navbar__list">Arte</a></li>
+                    <li><a href="#" class="navbar__list">Literatura</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main__container">
+        <!--Acá comienza Bootstrap carousel-->
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carouselprincipal1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carouselprincipal2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carouselprincipal3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Acá finaliza Bootstrap Carousel-->
+        <!--Acá comienza el contenido de las Cards-->
+        <div class="grid__container">
+            <div class="card">
+                <img class="card__image" src="/images/libro-uno.jpg" alt="">
+                <div class="card__title">La música del universo</div>
+                <div class="card__description">El 11 de febrero de 2016 se anunció un descubrimiento que sacudió el
+                    mundo y fue tapa de los principales diarios: por primera vez se habían detectado ondas
+                    gravitacionales</div>
+                <div class="card__icons">
+                    <a href="#" class="a-icons"> <i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="a-icons"><i class=" fas fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="/images/libro-dos.jpg" alt="">
+                <div class="card__title">La fragilidad de los cuerpos</div>
+                <div class="card__description">Una trama policial de ritmo trepidante, una historia de amor salvaje y un
+                    universo de personajes inolvidables.</div>
+                <div class="card__icons">
+                    <a href="#" class="a-icons"> <i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="a-icons"><i class=" fas fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="/images/libro-tres.jpg" alt="">
+                <div class="card__title">Gran panda y pequeño dragon</div>
+                <div class="card__description">Este libro narra el viaje de dos amigos con tendencia a perderse. Como la
+                    mayoría de las personas. Gran Panda y Pequeño Dragón suelen terminar encontrándose.</div>
+                <div class="card__icons">
+                    <a href="#" class="a-icons"> <i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="a-icons"><i class=" fas fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="/images/libro-cuatro.jpg" alt="">
+                <div class="card__title">Drenaje linfático manual</div>
+                <div class="card__description">Esta técnica es especialmente útil en el tratamiento de las enfermedades
+                    linfáticas e inmunológicas, activando las funciones de las células linfáticas y elevan el
+                    nivel inmunológico del organismo.</div>
+                <div class="card__icons">
+                    <a href="#" class="a-icons"> <i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="a-icons"><i class=" fas fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="/images/libro-cinco.jpg" alt="">
+                <div class="card__title">Asesino de brujas</div>
+                <div class="card__description">Lou lleva toda su vida huyendo. Pero ahora, después de un golpe demoledor
+                    por parte de Morgane, ha llegado el momento de volver a casa… y reclamar lo que es suyo por derecho
+                    propio. </div>
+                <div class="card__icons">
+                    <a href="#" class="a-icons"> <i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="a-icons"><i class=" fas fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="/images/libro-seis.jpg" alt="">
+                <div class="card__title">Aprender a ser salvajes</div>
+                <div class="card__description">Este libro constituye una mirada clara y profunda a cosas que son
+                    difíciles de ver. </div>
+                <div class="card__icons">
+                    <a href="#" class="a-icons"><i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="a-icons"><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+
+            <!--Acá finaliza el contenido de las cards-->
+        </div>
+        </div>
+    </main>
+    <!--Acá comienza el contenido del Footer-->
+    <footer class="footer">
+
+        <div class="container-fluid d-flex justify-content-center align-items-center footer__container">
+
+            <div class="col d-flex flex-column">
+                <a href="index.html">
+                    <img class="footer__image__logo" src="/images/romalogo.png" alt="romalogo">
+                </a>
+            </div>
+
+            <div class="col d-flex flex-column justify-content-center align-items-center ">
+                <h5>Formas de pago</h5>
+                <div class="col d-flex">
+                    <img class="credit__img" src="images/amaster card_icon.png" alt="Credit card">
+                    <img class="credit__img" src="images/american express.jpg" alt="American Express">
+                    <img class="credit__img" src="images/avisa card_icon.png" alt="Visa credit card">
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column justify-content-center align-items-center  social">
+                <h5>Contactanos</h5>
+                <div class="col d-flex">
+                    <img class="social__img" src="images/bfacebook.png" alt="Social media">
+                    <img class="social__img" src="images/binstagram.png" alt="Social media">
+                    <img class="social__img" src="images/bwhatsapp.png" alt="Whatsapp">
+                    <img class="social__img" src="images/btelegram.png" alt="Telegram">
+                </div>
+            </div>
+
+            <div class="col d-flex flex-column justify-content-center align-items-center ">
+                <h5>Nosotros</h5>
+                <ul class="footer__contacts">
+                    <li><a href="legales.html">Botón de arrepentimiento</a></li>
+                    <li><a href="#">Como comprar</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Preguntas frecuentes </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom-container">
+            <div class="">
+                Rosario 21-10-2021
+            </div>
+            <div class="">
+                Derechos Reservados
+            </div>
+            <div class="">
+                Roma Books
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
