@@ -526,6 +526,26 @@
     width: 90%;
   }
 }
+.main__container__404 {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 150px auto;
+}
+.main__container__404 .container__404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main__container__404 .container__title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.main__container__404 .image__404 {
+  width: 250px;
+  position: relative;
+}
+
 html {
   font-family: Source Sans Pro, sans-serif;
 }
